@@ -1,0 +1,5 @@
+CDE_ID,Name,Value,Last_Updated
+1,Loan_Amount,50000,2025-10-10
+2,Interest_Rate,5.5,2025-10-07
+3,Customer_Age,,2025-10-11
+4,Credit_Score,750,2025-09-29
