@@ -67,7 +67,12 @@ A **Column Chart** showing how recently each record was updated.
 - Building professional Excel dashboards  
 - Performing data quality validation  
 - Automating data discrepancy detection  
-- Structuring analytics projects for GitHub portfolios  
+- Structuring analytics projects for GitHub portfolios
+- ---
+
+## 📊 Final Dashboard Charts
+![Missing vs Valid](Missing_vs_Valid.png)
+![Freshness by CDE](Freshness_by_CDE.png)
 
 
 
