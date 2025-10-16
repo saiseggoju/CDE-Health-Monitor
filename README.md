@@ -1,81 +1,71 @@
-# 🩺 CDE Health Monitor – Data Discrepancy & Freshness Dashboard
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative&logoColor=white" alt="License">
+  <img src="https://img.shields.io/github/stars/saiseggoju/CDE-Health-Monitor?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/saiseggoju/CDE-Health-Monitor?style=social" alt="GitHub forks">
+</p>
 
-## 📘 Project Overview
-The **CDE Health Monitor** project tracks and visualizes **data quality and freshness** across Customer Data Elements (CDEs).  
-It detects missing or outdated records, highlights discrepancies, and visualizes overall data health.
+<h1 align="center">🩺 CDE Health Monitor</h1>
+<p align="center">📊 Data Discrepancy & Freshness Dashboard using Python</p>
 
-This project reflects how enterprise analytics teams (like Amazon’s CDE Science Team) maintain accurate and timely customer data for decision-making.
+# 🩺 CDE Health Monitor — Data Quality & Freshness Dashboa
+
+![Project Preview](Freshness_by_CDE.png)
+
+## 📘 Overview
+The **CDE Health Monitor** tracks and visualizes the *data quality, consistency, and freshness* of Customer Data Elements (CDEs).  
+It detects missing, invalid, or outdated records and highlights data health trends across systems.
+
+This project demonstrates strong **data analysis, visualization, and monitoring** capabilities using Python libraries.
 
 ---
 
-## 🎯 Objectives
-- Detect missing or inconsistent data across key attributes  
-- Track data freshness (days since last update)  
-- Visualize missing vs valid data in dashboards  
-- Automate discrepancy reporting for continuous monitoring  
+## ⚙️ Tech Stack
+| Category | Tools |
+|-----------|-------|
+| Language | Python 🐍 |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| File Handling | OpenPyXL |
+| Version Control | Git & GitHub |
+| IDE | VS Code / Jupyter Notebook |
 
 ---
 
-## 🧩 Project Structure
+## 📊 Features
+✅ Detects missing vs valid CDE values  
+✅ Monitors record freshness trends  
+✅ Generates clean data health visuals  
+✅ Modular and scalable code structure  
+✅ Easy deployment & automation-ready  
+
+---
+
+## 📂 Project Structure
 CDE-Health-Monitor/
 │
-├── data/ # Input or raw data
-├── processed/ # Cleaned files and reports
-│ ├── discrepancy_report.ods
-│ ├── discrepancy_report.xlsx
-│ └── CDE_Health_Report.xlsx
-│
-├── src/ # Scripts and code files
-│ └── validate_cde_health.py
-│
-├── notebooks/ # Optional: Jupyter analysis
-│ └── CDE_analysis.ipynb
-│
-└── README.md
+├── data/ # Input raw datasets
+├── processed/ # Cleaned/processed output files
+├── notebooks/ # Jupyter notebooks for exploration
+├── src/ # Python scripts for data handling
+├── Freshness_by_CDE.png # Visualization 1
+├── Missing_vs_Valid.png # Visualization 2
+├── requirements.txt # Dependencies
+├── LICENSE # MIT License
+└── README.md # Project overview
+---
+---
+
+## 🧠 Insights
+- **Data Quality Dashboard:** Helps business teams quickly see which data elements are stale or inconsistent.  
+- **Visual Health Indicators:** Highlights freshness gaps and invalid-data ratios.  
+- **Scalable Monitoring:** Can integrate into ETL pipelines or data warehouses.
 
 ---
 
-## 📊 Key Visuals
-
-### 🔹 Missing vs Valid Records
-A **Pie Chart** representing missing and valid records in the dataset.
-
-### 🔹 Data Freshness by CDE Name
-A **Column Chart** showing how recently each record was updated.
-
----
-
-## 🧠 Tools Used
-| Tool | Purpose |
-|------|----------|
-| **LibreOffice Calc / Excel** | Data cleaning, charting, and reporting |
-| **Python (optional)** | Automating discrepancy validation |
-| **Git & GitHub** | Version control and collaboration |
-| **Power BI (future)** | Interactive dashboard development |
-
----
-
-## 🧩 Workflow Summary
-1. Data is extracted and validated using Python or manual entry.  
-2. LibreOffice (or Excel) is used to calculate data freshness and visualize discrepancies.  
-3. Final reports (`CDE_Health_Report.xlsx`) are generated and saved under `/processed/`.  
-4. The results are version-controlled in GitHub for continuous monitoring.
-
----
-
-## 🧠 Learnings
-- Building professional Excel dashboards  
-- Performing data quality validation  
-- Automating data discrepancy detection  
-- Structuring analytics projects for GitHub portfolios
-- ---
-
-## 📊 Final Dashboard Charts
-![Missing vs Valid](Missing_vs_Valid.png)
-![Freshness by CDE](Freshness_by_CDE.png)
-
-
-
-
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/saiseggoju/CDE-Health-Monitor.git
 
 
