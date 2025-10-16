@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white" alt="Python Version">
   <img src="https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative&logoColor=white" alt="License">
@@ -8,9 +9,7 @@
 <h1 align="center">🩺 CDE Health Monitor</h1>
 <p align="center">📊 Data Discrepancy & Freshness Dashboard using Python</p>
 
-# 🩺 CDE Health Monitor — Data Quality & Freshness Dashboa
-
-![Project Preview](Freshness_by_CDE.png)
+---
 
 ## 📘 Overview
 The **CDE Health Monitor** tracks and visualizes the *data quality, consistency, and freshness* of Customer Data Elements (CDEs).  
@@ -21,14 +20,15 @@ This project demonstrates strong **data analysis, visualization, and monitoring*
 ---
 
 ## ⚙️ Tech Stack
+
 | Category | Tools |
 |-----------|-------|
-| Language | Python 🐍 |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| File Handling | OpenPyXL |
-| Version Control | Git & GitHub |
-| IDE | VS Code / Jupyter Notebook |
+| **Language** | Python 🐍 |
+| **Data Analysis** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **File Handling** | OpenPyXL |
+| **Version Control** | Git & GitHub |
+| **IDE** | VS Code / Jupyter Notebook |
 
 ---
 
@@ -42,6 +42,7 @@ This project demonstrates strong **data analysis, visualization, and monitoring*
 ---
 
 ## 📂 Project Structure
+
 CDE-Health-Monitor/
 │
 ├── data/ # Input raw datasets
@@ -53,7 +54,7 @@ CDE-Health-Monitor/
 ├── requirements.txt # Dependencies
 ├── LICENSE # MIT License
 └── README.md # Project overview
----
+
 ---
 
 ## 🧠 Insights
@@ -64,8 +65,8 @@ CDE-Health-Monitor/
 ---
 
 ## 🚀 How to Run
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/saiseggoju/CDE-Health-Monitor.git
-
 
