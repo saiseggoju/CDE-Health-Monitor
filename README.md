@@ -9,114 +9,148 @@
 <p align="center">📊 A Python-powered dashboard to analyze data freshness, consistency, and quality for Customer Data Elements (CDEs).</p>
 
 ---
+### 📘 Project Overview  
+The **CDE Health Monitor** project tracks and visualizes **data quality, consistency, and freshness** across key *Customer Data Elements (CDEs)*.  
+It automatically identifies **missing, invalid, or outdated** records to maintain reliable data pipelines and improve analytics performance.
 
-## 📘 Project Overview
-The **CDE Health Monitor** tracks and visualizes **data quality**, **consistency**, and **freshness** for critical Customer Data Elements (CDEs).  
-It detects missing or outdated data, measures validity, and visualizes results through automated charts.
+---
 
-### 🎯 Key Objectives
+## 🎯 Objectives  
 - Detect missing or stale records  
-- Measure invalid or inconsistent data percentages  
-- Visualize CDE quality using interactive charts  
-- Support ETL & data governance automation  
+- Measure invalid data percentages  
+- Visualize CDE data quality and freshness  
+- Support proactive monitoring for ETL workflows  
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Tech Stack  
 
-| Component | Technology Used |
-|------------|----------------|
-| Programming | Python 3 |
-| Data Handling | Pandas |
-| Visualization | Matplotlib, Seaborn |
-| File Storage | Excel (.xlsx) |
-| Environment | Jupyter Notebook / VS Code |
+| Category | Tools Used |
+|-----------|------------|
+| **Programming Language** | Python 3 |
+| **Libraries** | Pandas, Matplotlib, Seaborn, OpenPyXL |
+| **File Storage** | Excel (.xlsx) |
+| **Environment** | Jupyter Notebook / VS Code |
 
 ---
 
-## ⚙️ Project Setup
+## ⚙️ Setup & Installation  
 
-### 🪄 1️⃣ Clone this Repository
-```bash
+#### 1️⃣ Clone this Repository  
 git clone https://github.com/saiseggoju/CDE-Health-Monitor.git
 cd CDE-Health-Monitor
-🧰 2️⃣ Install Dependencies
-bash
+
+shell
 Copy code
+
+#### 2️⃣ Install Dependencies  
 pip install -r requirements.txt
-If requirements.txt isn’t available, run manually:
 
-bash
+arduino
 Copy code
+
+If `requirements.txt` is not available, manually install:  
 pip install pandas matplotlib seaborn openpyxl
-▶️ 3️⃣ Run the Notebook
+
 bash
 Copy code
+
+#### 3️⃣ Run the Notebook  
 jupyter notebook
-Then open CDE_Health_Monitor.ipynb and click Run All ▶️.
-
-🧮 Data Files
-File	Description
-processed/CDE_Health_Report.xlsx	Contains CDE freshness metrics
-processed/discrepancy_report.xlsx	Contains invalid/missing data records
-
-📊 Dashboard Outputs
-1️⃣ Data Freshness Chart
-Shows the number of days since each CDE was last refreshed.
-🖼️ Output file: Freshness_by_CDE.png
-
-<img src="Freshness_by_CDE.png" width="650" alt="Data Freshness Chart">
-2️⃣ Missing vs Valid Records Chart
-Displays the percentage of invalid or missing data for each CDE.
-🖼️ Output file: Missing_vs_Valid.png
-
-<img src="Missing_vs_Valid.png" width="650" alt="Missing vs Valid Records Chart">
-💡 Insights
-Quickly spot outdated or inconsistent CDEs
-
-Identify areas where ETL or data capture pipelines fail
-
-Enhance overall data trust for analytics & reporting
-
-Build the foundation for continuous data quality monitoring
-
-🚀 Future Scope
-Automate daily CDE checks using Airflow or Cron Jobs
-
-Connect live with Snowflake, AWS S3, or Azure SQL
-
-Integrate Slack/email alerts for stale data detection
-
-Deploy as a Streamlit web dashboard
-
-👩‍💻 Author
-Seggoju Sai Sri Kavya
-📊 Data Analyst | Python | SQL | Tableau | Data Visualization
-🔗 GitHub Profile
-📧 your_email_here@example.com
-
-🪪 License
-This project is licensed under the MIT License — see the LICENSE file for details.
 
 yaml
 Copy code
 
----
-
-### ✅ What You’ll See After Committing
-Once you paste this and click **Commit changes → green button → refresh your repo**, you’ll see:
-- ✅ Beautiful badges at the top  
-- ✅ Organized sections with icons  
-- ✅ Both graphs shown side-by-side under the **Dashboard Outputs** section  
-- ✅ Fully polished, portfolio-ready look 🎯  
+Then open **CDE_Health_Monitor.ipynb** and click **Run All Cells ▶️**
 
 ---
 
+## 📊 Dashboard Outputs  
 
+### 🗓️ Data Freshness by CDE  
+This chart shows how recent the records are for each Customer Data Element (CDE).  
+Lower “Freshness Days” indicate more up-to-date data.
 
++------------------+----------------+
+| CDE | Freshness_Days |
++------------------+----------------+
+| Customer_ID | 2 |
+| Address | 5 |
+| Phone | 1 |
+| Email | 4 |
+| DOB | 3 |
++------------------+----------------+
 
+yaml
+Copy code
 
+**📈 Chart Preview:**  
+![Data Freshness by CDE](Freshness_by_CDE.png)
 
+---
+
+### ❌ Missing vs Valid Records by CDE  
+This visualization highlights the invalid or missing record percentages per CDE.
+
++------------------+--------------------+
+| CDE | Invalid_Percentage |
++------------------+--------------------+
+| Customer_ID | 1.2 |
+| Address | 3.5 |
+| Phone | 0.8 |
+| Email | 2.0 |
+| DOB | 1.0 |
++------------------+--------------------+
+
+yaml
+Copy code
+
+**📊 Chart Preview:**  
+![Missing vs Valid Records by CDE](Missing_vs_Valid.png)
+
+---
+
+## 📁 Output Files  
+
+| File Name | Description |
+|------------|-------------|
+| `processed/CDE_Health_Report.xlsx` | Contains freshness metrics for all CDEs |
+| `processed/discrepancy_report.xlsx` | Tracks invalid or missing data records |
+| `Freshness_by_CDE.png` | Visualization of data freshness |
+| `Missing_vs_Valid.png` | Visualization of data validity |
+
+---
+
+## 💡 Insights  
+- Provides a **quick overview** of data freshness and validity  
+- Detects data issues before they impact business reporting  
+- Improves confidence in analytics through data health monitoring  
+
+---
+
+## 🚀 Future Enhancements  
+- Integrate with **Snowflake / AWS S3 / Azure Blob** for real-time data monitoring  
+- Automate daily freshness checks  
+- Add **email or Slack alerts** for data quality breaches  
+
+---
+
+## 👩‍💻 Author  
+**Seggoju Sai Sri Kavya**  
+🎓 Master’s in Analytics | 💼 Data Analyst | 🧠 Python & SQL Enthusiast  
+
+GitHub: [https://github.com/saiseggoju](https://github.com/saiseggoju)  
+LinkedIn: [https://www.linkedin.com/in/sai-seggoju/](https://www.linkedin.com/in/sai-seggoju/)  
+
+---
+
+## 📄 License  
+This project is licensed under the **MIT License**.  
+You may freely use, modify, and share this project with proper credit.
+
+---
+
+🌸 *"Reliable data builds reliable insights."* 🌸  
 
 
 
