@@ -1,4 +1,14 @@
-# 🩺 CDE Health Monitor – Data Discrepancy & Freshness Dashboard
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative&logoColor=white" alt="License">
+  <img src="https://img.shields.io/github/stars/saiseggoju/CDE-Health-Monitor?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/saiseggoju/CDE-Health-Monitor?style=social" alt="GitHub Forks">
+</p>
+
+<h1 align="center">🩺 CDE Health Monitor – Data Discrepancy & Freshness Dashboard</h1>
+<p align="center">📊 Data Quality & Freshness Tracking using Python</p>
+
+---
 
 ## 📘 Project Overview
 The **CDE Health Monitor** project tracks and visualizes **data quality** and **freshness** across key Customer Data Elements (CDEs).  
@@ -25,20 +35,20 @@ It automatically identifies missing, invalid, or outdated records to maintain da
 
 ## ⚙️ Project Setup
 
-### **1️⃣ Clone this repository**
+### 🪄 1️⃣ Clone this repository
 ```bash
 git clone https://github.com/saiseggoju/CDE-Health-Monitor.git
 cd CDE-Health-Monitor
-2️⃣ Install dependencies
+🧰 2️⃣ Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-If you don’t have a requirements file, install manually:
+If you don’t have a requirements.txt, install manually:
 
 bash
 Copy code
 pip install pandas matplotlib seaborn openpyxl
-3️⃣ Run the notebook
+▶️ 3️⃣ Run the notebook
 bash
 Copy code
 jupyter notebook
@@ -74,7 +84,7 @@ Automate daily health checks using Airflow or Cron Jobs
 
 Connect to real databases like Snowflake, AWS S3, or SQL Server
 
-Send email or Slack alerts for freshness violations
+Send Slack/Email alerts for freshness violations
 
 Deploy interactive dashboards using Streamlit or Power BI
 
@@ -92,17 +102,19 @@ Copy code
 
 ---
 
-### ✅ Steps to Use
-1. Go to your GitHub repo → `README.md`  
-2. Click **Edit** ✏️  
-3. Delete everything inside  
-4. Paste the above code block exactly as-is  
-5. Click **“Commit changes”** (green button)  
+### ✅ What to do now
+1. Open your GitHub → `README.md` → click **Edit** ✏️  
+2. Delete everything inside  
+3. Paste the above version  
+4. Click **Commit changes (green button)**  
+
+Then refresh your repo page — it’ll show:
+- Python badge  
+- MIT license badge  
+- GitHub stars/forks badges  
+- Beautiful emoji headers  
+- Chart previews side-by-side 🎉  
 
 ---
-
-Once you do this, your GitHub page will look **professional, structured, and portfolio-ready** — with both charts displayed side-by-side 📊  
-
-Would you like me to also give you a **matching `requirements.txt`** (so recruiters or teammates can install all needed lib
 
 
